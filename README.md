@@ -7,8 +7,8 @@
 #### Important links 
 - [x] What are algorithms and data structures? Pancakes!
 - [x] Why learn algorithms? Worried this isn't your cup of tea? Then read this.
-- [ ] Big-O notation. We often say things like, "This algorithm is O(n)." If you don't know what that means, read this first.
-- [ ] Algorithm design techniques. How do you create your own algorithms?
+- [X] Big-O notation. We often say things like, "This algorithm is O(n)." If you don't know what that means, read this first.
+- [X] Algorithm design techniques. How do you create your own algorithms?
 
 Where to start? If you're new to algorithms and data structures, here are a few good ones to start out with: 
 - [ ] Stack
@@ -156,3 +156,10 @@ The ideal sorting algorithm would have the following properties:
 * Worst-case O(n·lg(n)) key comparisons.
 * Worst-case O(n) swaps.
 * Adaptive: Speeds up to O(n) when data is nearly sorted or when there are few unique keys.
+
+### More Swift Notes
+
+Resources being used
+
+* https://www.tutorialspoint.com/swift/index.htm
+* https://docs.swift.org/swift-book/LanguageGuide/Functions.html
