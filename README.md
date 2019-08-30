@@ -163,3 +163,42 @@ Resources being used
 
 * https://www.tutorialspoint.com/swift/index.htm
 * https://docs.swift.org/swift-book/LanguageGuide/Functions.html
+
+### Tutorials Point Progress 
+Swift Tutorial
+- [X] Swift - Home
+- [ ] Swift - Overview
+- [ ] Swift - Environment
+- [ ] Swift - Basic Syntax
+- [ ] Swift - Data Types
+- [ ] Swift - Variables
+- [ ] Swift - Optionals
+- [ ] Swift - Tuples
+- [ ] Swift - Constants
+- [ ] Swift - Literals
+- [ ] Swift - Operators
+- [ ] Swift - Decision Making
+- [ ] Swift - Loops
+- [ ] Swift - Strings
+- [ ] Swift - Characters
+- [ ] Swift - Arrays
+- [ ] Swift - Sets
+- [ ] Swift - Dictionaries
+- [ ] Swift - Functions
+- [ ] Swift - Closures
+- [ ] Swift - Enumerations
+- [ ] Swift - Structures
+- [ ] Swift - Classes
+- [ ] Swift - Properties
+- [ ] Swift - Methods
+- [ ] Swift - Subscripts
+- [ ] Swift - Inheritance
+- [ ] Swift - Initialization
+- [ ] Swift - Deinitialization
+- [ ] Swift - ARC Overview
+- [ ] Swift - Optional Chaining
+- [ ] Swift - Type Casting
+- [ ] Swift - Extensions
+- [ ] Swift - Protocols
+- [ ] Swift - Generics
+- [ ] Swift - Access Control
