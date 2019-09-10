@@ -167,9 +167,9 @@ Resources being used
 ### Tutorials Point Progress 
 Swift Tutorial
 - [X] Swift - Home
-- [ ] Swift - Overview
-- [ ] Swift - Environment
-- [ ] Swift - Basic Syntax
+- [X] Swift - Overview
+- [X] Swift - Environment
+- [X ] Swift - Basic Syntax - Question-What are Tokens in Swift?
 - [ ] Swift - Data Types
 - [ ] Swift - Variables
 - [ ] Swift - Optionals
