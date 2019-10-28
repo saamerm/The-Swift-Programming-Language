@@ -22,12 +22,14 @@ var n = 4
 // O(log n)
 // Instead of simply incrementing, 'j' is increased by 2 times itself in each run.
 // Binary Search Algorithm is an example of O(log n) complexity.
-//var j = 1
-//while j < n {
-//    // do constant time stuff
-//    j *= 2
-//    print (j)
-//}
+/*
+var j = 1
+while j < n {
+    // do constant time stuff
+    j *= 2
+    print (j)
+}
+*/
 
 // O(n)
 // Array Traversal and Linear Search are examples of O(n) complexity.
