@@ -1,7 +1,7 @@
 //: [Previous](@previous)
 
 // COLLECTIONS CHEATSHEET
-
+/*
 // ARRAYS
 // =======
 print ("ARRAYS")
@@ -54,9 +54,9 @@ for (index, value) in strArray.enumerated(){
 // SETS
 // =======
 print ("SETS")
-
 var letters = Set<Character>()
-print("letters is a set of characters with \(letters.count) items")
+
+ print("letters is a set of characters with \(letters.count) items")
 letters.insert("a")
 print("letters is a set of characters with \(letters.count) items")
 var letterSet : Set = ["safa", "asf"]
@@ -94,4 +94,52 @@ print(setA.isStrictSuperset(of: setD)) // True
 print(setA.isStrictSuperset(of: setA)) // False
 print(setA.isDisjoint(with: setB)) // True
 print(setA == setD)
+ */
+
+// DICTIONARIES
+// =======
+print ("DICTIONARIES")
+var dictA : Dictionary<Int, String> = [1:"Hello",2:"Yo"]
+
+// ShortForm of the same thing
+var dictAShort : [Int:String] = [1:"Hello",2:"Yo"]
+// Shortest form
+var dictAShorter = [1:"asf", 2:"Asf"]
+
+// Initialize an empty dictionary
+var dictB = [Int:String]()
+dictB[2]="Hello" // "Subscripting" syntax
+dictB = [3:"asd", 4:"asfa"] // Clears the older items
+print(dictB)
+dictB=[:] // Empty the dictionary
+print(dictB)
+// Dictionaries also have the .count, isEmpty members
+if let dictValueB1 = dictB.updateValue("World", forKey: 2){ // Updates the value AFTER the check. Can also update using subscripting
+    print (dictValueB1)
+} else {
+    print ("No value for key 2") // This is executed
+}
+if let dictValueB2 = dictB[2]{
+    print (dictValueB2) // This is executed
+} else {
+    print ("No value for key 2")
+}
+dictB[2] = nil // Deletes the key value pair
+dictB[1] = "asf"
+dictB.removeValue(forKey: 1)
+print(dictB.count)
+
+var airports = ["LHR":"London Heathrow","YYZ":"Toronto Pearson"]
+for airport in airports{
+    print("\(airport.key):\(airport.value)")
+}
+for (key, value) in airports{
+    print("\(key):\(value)")
+}
+for key in airports.keys{
+    print("\(key):\(airports[key]!)")
+}
+airports.keys.sorted() // This sorts but then unsorts itself
+var keys = [String](airports.keys.sorted()) // You can also create an array of strings that is sorted
+print(keys)
 //: [Next](@next)
